@@ -1,0 +1,28 @@
+.main-header {
+  text-align: center;
+}
+.navigation-menu {
+  height: 200vh;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 60px;
+}
+.header li {
+  list-style-type: none;
+}
+.header li .nav-item {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 13px 20px;
+  color: white;
+}
+.header li .nav-item:hover {
+  background-color: blueviolet;
+}
+.home-content, .about-content, .contact-content {
+  text-align: center;
+}
