@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Vladimir;
+}
+@font-face {
+    font-family: 'Vladimir';
+    src: url(fonts/Questrial-Regular.ttf);
+}
+/*Header*/
+.header_container {
+    width: 100%;
+    background-color: tomato;
+}
+.header_container h2 {
+    padding: 10px;
+    color: white;
+    margin-left: 30px;
+}
+.row {
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+
+.row h3 {
+    margin: 10px 20px;
+    color: tomato;
+}
+.info_bellow div {
+    margin-left: 20px;
+}
+.comments {
+    color: white;
+    background-color: lightseagreen;
+    padding: 4px;
+    border-radius: 14px;
+}
+.info_bellow {
+    display: flex;
+}
+.info_bellow .time span {
+    color: tomato;
+}
+.info_bellow .name span {
+    color: tomato;
+}
+.info_bellow i {
+    margin-right: 5px;
+    color: lightgray;
+}
+.info_bellow .points span {
+    color: lightgray;
+}
